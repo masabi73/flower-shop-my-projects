@@ -62,13 +62,10 @@ padding: 10px 0px 10px 15px;
     /* max-width: 1140px; */
      margin: 0 auto;
     padding: 0px 80px;
-    /* background-color: aqua; */
+   
     
 }
-
-
-
- .nav-ul{
+.nav-ul{
   gap: 40px;
  }
 .nav-list-item{
@@ -83,8 +80,7 @@ padding: 10px 0px 10px 15px;
 
 /* banner section style */
 .banner{
-    /* background-color: beige; */
-    justify-content: center;
+      justify-content: center;
     align-items: center;
     margin: 8px 0px;
     padding: 0px 80px;
@@ -110,13 +106,89 @@ color: rgb(54, 255, 9);
 .banner-right img{
     height: 500px;
     width: 400px;
+    margin-bottom: -3.5px;
+   }
+
+   /* our feature style */
+ .our-fe0ature{
+    justify-content: center;
+    align-items: center;
+    /* background-image:url(Flower Asset/flower-bg.jpg) ; */
    
-}
+ }
+   .feature-div{
+    max-width: 694px;
+    height: 132px;
+    background-color: rgb(145, 178, 248);
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 5%;
+     border-top-right-radius: 40%;
+     border-top-left-radius: 5%;
+    text-align: center;
+    margin: 80px auto 40px auto;
+    padding: 20px;
+   }
+
+   .feature-div h3{
+    font-size: 2.25rem;
+    margin-bottom: 10px;
+    color: purple;
+    font-weight: 700;
+   }
+   .feature-div p{
+    /* margin-bottom: 10px; */
+    font-weight: 500;
+    font-style: initial;
+   }
+
+   /* flower item style */
+ .flower-main{
+background-image:  url(flower-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+   .flower-box{
+    /* background-color: rgb(150, 142, 143); */
+     
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  
+    
+   }
+   /* .flower-item*/
+
+    /* background-color: pink;
+     border-top-left-radius: 47%;
+    border-top-right-radius: 47%;
+    padding: 30px;
+    margin-top: 0px;
+   } */
+   .flower-item img{
+    width: 300px;
+    height: 400px;
+    border-bottom: 8px solid violet;
+    border-radius: 30px;
+   }
+
+   .flower-item p{
+    margin-top: 10px;
+   text-align: center;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   
+   }
+   .flower-item a{
+    color: black;
+   }
 /* small device 576px */
 @media screen and (max-width: 576px) {
     .navbar,
     .nav-ul,
-    .banner{
+    .banner,
+    .flower-box
+     {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -133,8 +205,6 @@ color: rgb(54, 255, 9);
     text-align: center;
     gap: 10px;
    }
-
-
    /*  banner*/
    .banner{
      margin-top: 50px;
@@ -144,6 +214,15 @@ color: rgb(54, 255, 9);
     height: 300px;
     width: 300px;
    }
-  
+  /* flower item */
+  .flower-box{
+    width: 100%;
+  }
+  .feature-div{
+    width: 95%;
+  }
+  .flower-item{
+    margin: 0 auto;
+  }
     
 }
