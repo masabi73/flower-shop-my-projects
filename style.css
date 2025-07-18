@@ -35,6 +35,7 @@
     padding: 10px 20px;
     margin-top: 20px;
     border-radius: 10px;
+    border: none;
 }
 
 /* navbar style */
@@ -233,6 +234,27 @@ margin-bottom: 20px;
         font-weight: 500;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
        }
+
+       /* flower images */
+
+      .margin-auto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+      }
+       .flower-images{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        padding: 0px 10px;
+       
+       }
+
+       .flower-images img{
+        border-radius: 20px;
+        height: 300px;
+       }
 /* small device 576px */
 @media screen and (max-width: 576px) {
     .navbar,
@@ -240,11 +262,13 @@ margin-bottom: 20px;
     .banner,
     .flower-box,
     .sale-up,
-    .menu-item-section
+    .menu-item-section,
+    .flower-images
      {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    
     .menu-item-section{
       height: auto;
       
