@@ -1,0 +1,149 @@
+/* monserrat-google-link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*sanstita-google-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+/* google fonts regular */
+.montserrat-google-fonts {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+/* google fonts iregular */
+.sansita-google-fonts {
+  font-family: "Sansita", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* universal selectors */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common or shared style */
+.display-flex{
+    display: flex;
+}
+
+.btn {
+    background-image: linear-gradient( to bottom right, rgb(176, 192, 150),  rgb(249, 255, 80),rgba(127, 234, 223, 0.845),rgb(164, 247, 229)  );
+    font-size: 25px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* navbar style */
+.header{
+    background-image: url(13167.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* nav images */
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0;
+}
+.nav-logo img{
+border: 5px solid mediumorchid;
+border-radius: 50%;
+padding: 10px 0px 10px 15px;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1140px; */
+     margin: 0 auto;
+    padding: 0px 80px;
+    /* background-color: aqua; */
+    
+}
+
+
+
+ .nav-ul{
+  gap: 40px;
+ }
+.nav-list-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(229, 255, 0);
+
+}
+
+/* banner section style */
+.banner{
+    /* background-color: beige; */
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0px;
+    padding: 0px 80px;
+    gap: 40px;
+}
+.banner-left h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: hsl(74, 100%, 51%) ;
+    margin-bottom: 20px;
+}
+.banner-left  span{
+font-weight: 700;
+color: rgb(54, 255, 9);
+}
+
+.banner-left p{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+}
+
+.banner-right img{
+    height: 500px;
+    width: 400px;
+   
+}
+/* small device 576px */
+@media screen and (max-width: 576px) {
+    .navbar,
+    .nav-ul,
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner{
+        margin-top: 100px;
+        text-align: center;
+        
+    }
+    .nav-logo img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+   .nav-ul{
+    text-align: center;
+    gap: 10px;
+   }
+
+
+   /*  banner*/
+   .banner{
+     margin-top: 50px;
+   }
+
+   .banner-right img{
+    height: 300px;
+    width: 300px;
+   }
+  
+    
+}
