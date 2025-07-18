@@ -255,6 +255,45 @@ margin-bottom: 20px;
         border-radius: 20px;
         height: 300px;
        }
+
+       /* lastd desaf */
+       .lastest-deals{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 400px;
+        background-color: rgb(152, 249, 238);
+       }
+
+       .hv h3{
+        font-size: 35px;
+       }
+       .hv p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+       }
+       .inputt input{
+        font-size: 25px;
+        width: 500px;
+        height: 40px;
+        padding-left: 20px;
+        border: none;
+        border-bottom-left-radius: 80px;
+        border-top-left-radius: 80px;
+        background-color: rgb(243, 141, 104);
+       }
+
+       .inputt button{
+         font-size: 25px;
+        width: 130px;
+        height: 40px;
+        margin-left: -10px;
+        border: none;
+        background-color: rgb(230, 8, 215);
+         border-bottom-right-radius: 80px;
+        border-top-right-radius: 80px;
+       }
 /* small device 576px */
 @media screen and (max-width: 576px) {
     .navbar,
@@ -319,7 +358,16 @@ margin-bottom: 20px;
     text-align: center;
     margin-bottom: -150px;
   }
+    .inputt{
     
+    }
+    .inputt .jh{
+      width: auto;
+      font-size: 15px;
+    }
+    .inputt button{
+      font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -329,4 +377,6 @@ margin-bottom: 20px;
 .feature-div p{
   font-size: 10x;
 }
+
+
 }
