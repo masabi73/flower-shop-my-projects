@@ -297,3 +297,12 @@ margin-bottom: 20px;
   }
     
 }
+
+@media screen and (max-width: 400px) {
+.feature-div h3{
+  font-size: 20px;
+}
+.feature-div p{
+  font-size: 10x;
+}
+}
